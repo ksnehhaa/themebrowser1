@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 // CORS configuration
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://themebrowser1.vercel.app'],
+  origin: ['http://localhost:5173', 'https://themebrowser1-frontend-bjwk.vercel.app'],
   credentials: true
 }));
 
